@@ -1,4 +1,4 @@
-package edu.umich.isr.InteractiveUI.ifdtc_workshop.app;
+package edu.umich.ifdtc_workshop.app;
 
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
@@ -8,8 +8,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Spinner;
-import android.widget.Switch;
-import android.widget.Toast;
 
 
 public class AgeActivity extends ActionBarActivity {

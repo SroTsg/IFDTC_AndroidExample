@@ -1,4 +1,4 @@
-package edu.umich.isr.InteractiveUI.ifdtc_workshop.app;
+package edu.umich.ifdtc_workshop.app;
 
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;

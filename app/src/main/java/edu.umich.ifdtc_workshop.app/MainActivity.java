@@ -1,4 +1,4 @@
-package edu.umich.isr.InteractiveUI.ifdtc_workshop.app;
+package edu.umich.ifdtc_workshop.app;
 
 import android.content.Context;
 import android.content.Intent;
@@ -8,7 +8,6 @@ import android.os.Bundle;
 import android.os.StrictMode;
 import android.provider.MediaStore;
 import android.support.v7.app.ActionBarActivity;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -24,7 +23,6 @@ import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.message.BasicNameValuePair;
-import org.apache.http.util.EntityUtils;
 
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;

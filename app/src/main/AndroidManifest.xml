@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="edu.umich.isr.InteractiveUI.ifdtc_workshop.app" >
+    package="edu.umich.ifdtc_workshop.app" >
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -12,7 +12,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="edu.umich.isr.InteractiveUI.ifdtc_workshop.app.MainActivity"
+            android:name=".MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,19 +21,19 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="edu.umich.isr.InteractiveUI.ifdtc_workshop.app.AgeActivity"
+            android:name=".AgeActivity"
             android:label="@string/title_activity_age" >
         </activity>
         <activity
-            android:name="edu.umich.isr.InteractiveUI.ifdtc_workshop.app.LocationActivity"
+            android:name=".LocationActivity"
             android:label="@string/title_activity_location" >
         </activity>
         <activity
-            android:name="edu.umich.isr.InteractiveUI.ifdtc_workshop.app.HumanActivity"
+            android:name=".HumanActivity"
             android:label="@string/title_activity_human" >
         </activity>
         <activity
-            android:name="edu.umich.isr.InteractiveUI.ifdtc_workshop.app.OpenEndActivity"
+            android:name=".OpenEndActivity"
             android:label="@string/title_activity_open_end" >
         </activity>
     </application>
